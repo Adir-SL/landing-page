@@ -69,13 +69,13 @@ html, body, #wrapper, video{
 }
 .footer{
     position: absolute;
-    bottom: 0;
+    bottom: 12px;
     height: 80px;
     color: #ffffff;
     display: flex;
     width: calc(100% - 24px);
     margin: 0 12px;
-    align-items: center;
+    align-items: flex-end;
     font-family: 'kepler';
     font-style: italic;
     font-weight: 300;
