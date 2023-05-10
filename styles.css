@@ -45,4 +45,6 @@ body{
     bottom: 0;
     height: 80px;
     color: #ffffff;
+    display: flex;
+    
 }
