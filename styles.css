@@ -114,4 +114,7 @@ html, body, #wrapper, video{
         top: calc(var(--fontSize) * 86);
         bottom: auto;
     }
+    .logo{
+        width: calc(var(--fontSize) * 25);
+    }
 }
