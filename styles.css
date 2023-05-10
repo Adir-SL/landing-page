@@ -1,3 +1,6 @@
+:root{
+    --fontSize: 1vmin;
+}
 #cover-video{
     position: absolute;
     width: 100%;
@@ -8,17 +11,29 @@
     padding: 0;
     object-fit: cover;
 }
+.big-text{
+    color: #D6C8B3;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: calc(var(--fontSize) * 25);
+    font-weight: 400;
+    line-height: calc(var(--fontSize) * 20);
+    letter-spacing: -0.02em;
+}
 .top-right{
     position: absolute;
     top: 12px;
     right: 12px;
     text-align: right;
 }
-.big-text{
-    color: #D6C8B3;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 25vmin;
-    font-weight: 400;
-    line-height: 25vmin;
-    letter-spacing: -0.02em;
+.center-left{
+    position: absolute;
+    top: calc(50% - calc(var(--fontSize) * 10));
+    left: 12px;
+    text-align: right;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    text-align: right;
 }
