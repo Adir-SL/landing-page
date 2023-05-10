@@ -1,5 +1,8 @@
 :root{
-    --fontSize: 1vmin;
+    --fontSize: 0.9vmin;
+}
+body{
+    overflow: hidden;
 }
 #cover-video{
     position: absolute;
@@ -27,13 +30,13 @@
 }
 .center-left{
     position: absolute;
-    top: calc(50% - calc(var(--fontSize) * 10));
+    top: calc(50% - 32px - calc(var(--fontSize) * 10));
     left: 12px;
     text-align: right;
 }
 .bottom-right{
     position: absolute;
-    bottom: 12px;
+    bottom: 80px;
     right: 12px;
     text-align: right;
 }
