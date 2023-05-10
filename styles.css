@@ -18,11 +18,13 @@ body{
 #wrapper{
     position: absolute;
     width: 100%;
+    max-width: 1600px;
     height: 100%;
     top: 0;
-    left: 0;
+    left: 50%;
     margin: 0;
     padding: 0;
+    transform: translateX(-50%);
 }
 #cover-video{
     position: absolute;
