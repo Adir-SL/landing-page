@@ -73,7 +73,8 @@ html, body, #wrapper, video{
     height: 80px;
     color: #ffffff;
     display: flex;
-    width: 100%;
+    width: calc(100% - 24px);
+    margin: 0 12px;
     align-items: center;
     font-family: 'kepler';
     font-style: italic;
@@ -86,6 +87,7 @@ html, body, #wrapper, video{
 }
 .footer div{
     width: 33.333%;
+    overflow: hidden;
 }
 .contact-div{
     color: #BFBFBF;
