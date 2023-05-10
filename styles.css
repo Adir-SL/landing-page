@@ -22,7 +22,16 @@ body{
     padding: 0;
     object-fit: cover;
 }
-.logo{}
+.logo{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-image: url(assets/kido_logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: calc(var(--fontSize) * 25);
+    aspect-ratio: 2 / 1;
+}
 .big-text{
     color: #D6C8B3;
     font-family: 'Bebas Neue', sans-serif;
