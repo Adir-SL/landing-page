@@ -93,4 +93,11 @@ body{
         width: 100% !important;
         text-align: center;
     }
+    .center-left{
+        top: calc(50% - 32px - calc(var(--fontSize) * 45));
+    }
+    .bottom-right{
+        top: calc(50% - 32px - calc(var(--fontSize) * 5));
+        bottom: auto;
+    }
 }
