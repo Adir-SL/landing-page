@@ -12,6 +12,9 @@
 html, body, #wrapper, video{
     overflow: hidden;
 }
+body{
+    background-color: black;
+}
 #wrapper{
     position: absolute;
     width: 100%;
@@ -30,6 +33,7 @@ html, body, #wrapper, video{
     margin: 0;
     padding: 0;
     object-fit: cover;
+    opacity: 0.5;
 }
 .logo{
     position: absolute;
