@@ -40,7 +40,7 @@ body{
 .logo{
     position: absolute;
     top: 12px;
-    left: 12px;
+    left: 48px;
     background-image: url(assets/kido_logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -57,19 +57,19 @@ body{
 }
 .top-right{
     position: absolute;
-    top: 12px;
+    top: 36px;
     right: 12px;
     text-align: right;
 }
 .center-left{
     position: absolute;
-    top: calc(50% - 32px - calc(var(--fontSize) * 10));
+    top: calc(50% - 12px - calc(var(--fontSize) * 10));
     left: 12px;
     text-align: left;
 }
 .bottom-right{
     position: absolute;
-    bottom: 80px;
+    bottom: 60px;
     right: 12px;
     text-align: right;
 }
@@ -79,8 +79,8 @@ body{
     height: 80px;
     color: #ffffff;
     display: flex;
-    width: calc(100% - 24px);
-    margin: 0 12px;
+    width: calc(100% - 96px);
+    margin: 0 48px;
     align-items: flex-end;
     font-family: 'kepler';
     font-style: italic;
