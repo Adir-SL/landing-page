@@ -69,7 +69,7 @@ html, body, #wrapper, video{
 }
 .footer{
     position: absolute;
-    bottom: 12px;
+    bottom: 11px;
     height: 80px;
     color: #ffffff;
     display: flex;
