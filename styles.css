@@ -8,3 +8,10 @@
     padding: 0;
     object-fit: cover;
 }
+.top-right{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #D6C8B3;
+
+}
