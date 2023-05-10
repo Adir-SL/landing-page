@@ -38,7 +38,7 @@ html, body, #wrapper, video{
     background-image: url(assets/kido_logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: calc(var(--fontSize) * 25);
+    width: calc(var(--fontSize) * 20);
     aspect-ratio: 2 / 1;
 }
 .big-text{
