@@ -40,3 +40,9 @@ body{
     right: 12px;
     text-align: right;
 }
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    color: #ffffff;
+}
