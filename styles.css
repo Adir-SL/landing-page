@@ -13,5 +13,10 @@
     top: 12px;
     right: 12px;
     color: #D6C8B3;
-
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 248px;
+    font-weight: 400;
+    line-height: 226px;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
