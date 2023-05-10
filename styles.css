@@ -50,7 +50,7 @@ body{
     position: absolute;
     top: calc(50% - 32px - calc(var(--fontSize) * 10));
     left: 12px;
-    text-align: right;
+    text-align: left;
 }
 .bottom-right{
     position: absolute;
