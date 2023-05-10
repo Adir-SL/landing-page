@@ -94,10 +94,10 @@ body{
         text-align: center;
     }
     .center-left{
-        top: calc(50% - 32px - calc(var(--fontSize) * 45));
+        top: calc(var(--fontSize) * 45);
     }
     .bottom-right{
-        top: calc(50% - 32px - calc(var(--fontSize) * 5));
+        top: calc(var(--fontSize) * 86);
         bottom: auto;
     }
 }
