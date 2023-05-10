@@ -47,7 +47,18 @@ body{
     color: #ffffff;
     display: flex;
     width: 100%;
+    align-items: center;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
 }
 .footer div{
     width: 33.333%;
+}
+.contact-div{
+    color: #BFBFBF;
+}
+.center-div{
+    text-align: center;
 }
